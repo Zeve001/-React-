@@ -1,0 +1,48 @@
+.Navitionitem {
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+.Navitionitem a {
+    color: #8f5c2c;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.Navitionitem a:hover,
+.Navitionitem a:active,
+.Navitionitem a:active {
+    color: #40A4c8;
+}
+
+@media (min-width: 500px) {
+
+    .Navitionitem {
+        margin: 0;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+    }
+    
+    .Navitionitem a {
+        color: white;
+        height: 100%;
+        padding: 16px 10px;
+        border-bottom: 4px solid transparent;
+    }
+    
+    .Navitionitem a:hover,
+    .Navitionitem a:active,
+    .Navitionitem a:active {
+        background-color: #8f5c2c;
+        border-bottom: 4px solid #40A4c8;
+        color: white;
+    }
+
+
+}
